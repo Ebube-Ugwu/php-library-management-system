@@ -1,5 +1,5 @@
 
-<?php require base_path("views/partials/head.php"); ?>
+<?php require basePath("views/partials/head.php"); ?>
 <div class="d-flex justify-content-center bg-light">
     <h1>School Library Application</h1>
 </div>
@@ -12,4 +12,4 @@
 <p>for admins, click <a href="#">here</a></p>
     </div>
 </div>
-<?php require base_path("views/partials/footer.php"); ?>
+<?php require basePath("views/partials/footer.php"); ?>
