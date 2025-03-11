@@ -1,0 +1,28 @@
+{
+    "name": "xavier/php-library-management-system",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+	    "Core\\": "Core/",
+        }
+    },
+    "authors": [
+        {
+            "name": "Ebube Ugwu",
+            "email": "ugwuebube3@gmail.com"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.24",
+        "phpmailer/phpmailer": "^6.9",
+        "intervention/image": "^3.11"
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.7"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
